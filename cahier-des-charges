@@ -1,0 +1,17 @@
+Développement d'un module Wordpress pour traduire un texte d'une langue source (français, anglais ou arabe) à une langue cible (français, anglais ou arabe)
+
+Fonction de base : envoyer un texte en français, anglais ou arabe au programme de traduction, qui en renverra une traduction dans la langue choisie. Afficher cette traduction à l'écran.
+
+Le plugin doit donc permettre de :
+- saisir ou copier un texte dans une zone de texte
+- envoyer ce texte au serveur de l'université du Maine où se trouve le programme de traduction en spécifiant de quelle langue à quelle langue on veut une traduction
+- recevoir la réponse du programme de traduction et l'afficher sur la page où on avait saisi le texte à traduire
+
+
+Au niveau de l'interface :
+> Y aura-t-il une limite de caractères ?
+> Pourra-t-on afficher la traduction dans les deux autres langues du programme ou dans une seule ?
+> Le texte à traduire et la traduction s'afficheront-ils en vis-à-vis, comme on peut le voir par exemple sur Google Trad ?
+
+Quel(s) langage(s) pour le dialogue entre plugin et serveur de traduction ?
+A priori, requêtes http + Ajax ?
