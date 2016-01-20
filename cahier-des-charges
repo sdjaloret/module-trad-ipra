@@ -1,6 +1,25 @@
 Développement d'un module Wordpress pour traduire un texte d'une langue source (français, anglais ou arabe) à une langue cible (français, anglais ou arabe)
 
-Fonction de base : envoyer un texte en français, anglais ou arabe au programme de traduction, qui en renverra une traduction dans la langue choisie. Afficher cette traduction à l'écran.
+Objectif :
+Dans le cadre du projet de l'Institut du Pluralisme Religieux et de l'Athéisme (IPRA), le développement et la mise en production d'un moteur de traduction
+nécessite le développement d'une extension (plugin) wordpress sous la forme d'un widget permettant l'interfaçage des fonctionnalités du moteur de traduction
+au niveau du site IPRA.
+Il s'agit en effet d'envoyer un texte en français, en anglais ou en arabe au programme de traduction, qui en renverra une traduction dans la langue choisie.
+
+Fonctionnalités :
+Le choix d'un widget wordpress répond à plusieurs critères :
+- la possibilité de l'afficher sur n'importe quelle page dans un espace dédié sur le site Ipra,
+- donner ainsi la possibilité d'un usage de n'importe quel endroit du site,
+- de s'appuyer sur la communauté wordpress afin d'en assurer collectivement la maintenance et le développement futur.
+
+Dans son fonctionnement standard, le widget propose un textarea dans un formulaire (form) à partir duquel les utilisateurs pourront saisir du texte dans la langue de leur choix après avoir sélectionner
+au préalable la langue de saisie. Cette langue est appelée langue source (source). L'utilisateur choisit ensuite la langue dans laquelle le texte doit être traduit.
+Cette langue est appelée langue cible (target). Une fois validée, le formulaire est envoyé au moteur de traduction, lequel renvoie une réponse au format JSON, interprétée
+par le widget afin qu'il puisse l'afficher dans un textarea de réponse.
+
+Droits :
+Les développements du widget tradIpra sont sous licence Creative Commons 3.0 (CC By-NC-SA FR) https://creativecommons.org/licenses/.
+
 
 Le plugin doit donc permettre de :
 - saisir ou copier un texte dans une zone de texte
